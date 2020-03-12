@@ -12,7 +12,7 @@ npm install --save react-easy-tooltip
 
 ## Demo
 
-[Demo link](https://github.com/aniksharif/react-easy-tooltip.git)
+[Demo link](https://aniksharif.github.io/react-easy-tooltip/)
 
 ## Usage
 
