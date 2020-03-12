@@ -10,17 +10,27 @@
 npm install --save react-easy-tooltip
 ```
 
+## Demo
+
+[Demo link](https://github.com/aniksharif/react-easy-tooltip.git)
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-easy-tooltip'
+import EasyTooltip from 'react-easy-tooltip'
 
-class Example extends Component {
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+        <EasyTooltip text='I am tooltip!' >
+          <h1>Hover here</h1>
+        </EasyTooltip>
+        
+
+      </div>
     )
   }
 }

@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-easy-tooltip'
+import EasyTooltip from 'react-easy-tooltip'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <EasyTooltip text='I am tooltip!' >
+          <h1>Hover here</h1>
+        </EasyTooltip>
+        
+
       </div>
     )
   }
